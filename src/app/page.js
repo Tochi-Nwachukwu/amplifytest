@@ -1,11 +1,12 @@
 // app/page.js
 // 'use client';
+import {  secret } from '@aws-amplify/backend';
 
 // import { useEffect } from 'react';
 
 export default function Home() {
-  // useEffect(() => {
-    console.log('SECRET:', process.env.SECRET);
+  const clientId= secret('SECRET')
+    console.log('SECRET:', clientId);
   // }, []);
 
   return (
