@@ -1,12 +1,12 @@
 // app/page.js
-'use client';
+// 'use client';
 
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 export default function Home() {
-  useEffect(() => {
+  // useEffect(() => {
     console.log('SECRET:', process.env.SECRET);
-  }, []);
+  // }, []);
 
   return (
     <div>
